@@ -46,7 +46,6 @@ class HighScoreFragment : Fragment() {
         val scores = view.findViewById<RecyclerView>(R.id.high_score_view)
 
 
-
         backToHomeButton.setOnClickListener{
             this.parentFragmentManager.commit{
                 //make parameter a string that is empty if it is the first play of the game and is <PlayerName>: <Score> otherwise
